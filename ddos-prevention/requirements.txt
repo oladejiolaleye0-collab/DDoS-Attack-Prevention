@@ -1,0 +1,23 @@
+# VirtShield — DDoS Prevention System
+# Python dependencies
+# Install with: pip install -r requirements.txt
+
+# Packet crafting (attack_simulator.py)
+scapy>=2.5.0
+
+# System metrics collection (monitor.py, monitor_agent.py)
+psutil>=5.9.0
+
+# HTTP server / API bridge for dashboard polling
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# SSH / remote command execution for controller -> VM comms
+paramiko>=3.4.0
+
+# Structured logging
+python-json-logger>=2.0.7
+
+# Utility
+requests>=2.31.0
+python-dotenv>=1.0.0
